@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repositories encoding="UTF-8" version="1.1">
+  <repo priority="50" quality="experimental">
+    <name>decibel-overlay</name>
+    <description>Unofficial Etterna and Faster Melee ebuilds</description>
+    <homepage>https://github.com/DanJBarry/decibel-overlay</homepage>
+    <owner>
+      <email>dbarry@stevens.edu</email>
+      <name>Dan Barry</name>
+    </owner>
+    <source type="git">https://github.com/DanJBarry/decibel-overlay.git</source>
+  </repo>
+</repositories>
