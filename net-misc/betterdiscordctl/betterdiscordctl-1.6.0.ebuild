@@ -3,19 +3,15 @@
 
 EAPI=7
 
-inherit git-r3
-
 DESCRIPTION="A utility for managing BetterDiscord on Linux"
-HOMEPAGE="https://github.com/bb010g/betterdiscordctl/"
+HOMEPAGE="https://github.com/bb010g/betterdiscordctl"
+SRC_URI="${HOMEPAGE}/archive/v${PV}.tar.gz"
 
-EGIT_COMMIT="7bd71530117c280842d6496928acace0674f1f52"
-EGIT_REPO_URI="https://github.com/bb010g/${PN}.git"
+RDEPEND="dev-vcs/git"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
-RDEPEND=">=net-libs/nodejs-11.14.0:=[npm]"
 
 src_prepare() {
 	sed -i 's/^DISABLE_UPGRADE=$/DISABLE_UPGRADE=yes/' betterdiscordctl || die
