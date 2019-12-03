@@ -370,7 +370,7 @@ https://github.com/Spotifyd/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz
 https://github.com/librespot-org/librespot/archive/v0.1.0.tar.gz -> librespot.tar.gz
 $(cargo_crate_uris ${CRATES})"
 RESTRICT="mirror"
-LICENSE="GPL-3"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE="alsa dbus libressl portaudio pulseaudio rodio"
