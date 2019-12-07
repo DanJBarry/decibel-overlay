@@ -383,7 +383,6 @@ dbus? ( sys-apps/dbus )
 libressl? ( dev-libs/libressl:0= )
 portaudio? ( media-libs/portaudio )
 pulseaudio? ( media-sound/pulseaudio )
-rodio? ( media-libs/rodio )
 "
 DEPEND="${RDEPEND}"
 
