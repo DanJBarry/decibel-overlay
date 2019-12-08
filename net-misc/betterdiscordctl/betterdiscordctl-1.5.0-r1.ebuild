@@ -5,7 +5,7 @@ EAPI=7
 
 DESCRIPTION="A utility for managing BetterDiscord on Linux"
 HOMEPAGE="https://github.com/bb010g/betterdiscordctl"
-SRC_URI="${HOMEPAGE}/archive/v${PV}.tar.gz"
+SRC_URI="https://github.com/bb010g/betterdiscordctl/archive/v${PV}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
